@@ -1,0 +1,91 @@
+
+body {
+    background-color: #C5C8D5;
+    color: #525B76;
+    font-family: "Arial", sans-serif;
+}
+
+h2 {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+
+#side {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+#side .btn {
+    margin: 0 30px;
+}
+
+#side p {
+    margin: 0;
+}
+
+#board {
+    background-color: transparent;
+    width: 402px;
+    height: 402px;
+    margin: 30px auto;
+}
+
+.tiles {
+    width: 134px;
+    height: 134px;
+    display: block;
+    float: left;
+    color: #525B76;
+    font-size: 6.3em;
+    padding: 1px 27px;
+}
+
+#tiles1,
+#tiles2,
+#tiles3 {
+    border-top: 12px solid #525B76;
+    border-bottom: 4px solid #525B76;
+}
+
+#tiles4,
+#tiles5,
+#tiles6 {
+    border-bottom: 4px solid #525B76;
+}
+
+#tiles1,
+#tiles4,
+#tiles7 {
+    border-left: 12px solid #525B76;
+    border-right: 4px solid #525B76;
+}
+
+#tiles7,
+#tiles8,
+#tiles9 {
+    border-bottom: 12px solid #525B76;
+}
+
+#tiles3,
+#tiles6,
+#tiles9 {
+    border-left: 4px solid #525B76;
+    border-right: 12px solid #525B76;
+}
+
+.win {
+    color: #E4572E;
+    transition: 200ms;
+}
+
+#resetGame {
+    margin-top: 20px;
+}
+
+#footer {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+}

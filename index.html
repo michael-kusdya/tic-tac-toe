@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>Wikipedia Viewer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h2>Tic Tac Toe</h2>
+    </header>
+    <div id="side">
+        <p>Choose Your Side</p><button id="X" class="btn btn-primary side-btn">X</button><button id="O" class="btn btn-primary side-btn">O</button>
+    </div>
+
+    <div id="board">
+        <div class="tiles" onClick="icon(this.id)" id="tiles1"></div>
+        <div class="tiles" onClick="icon(this.id)" id="tiles2"></div>
+        <div class="tiles" onClick="icon(this.id)" id="tiles3"></div>
+        <div class="tiles" onClick="icon(this.id)" id="tiles4"></div>
+        <div class="tiles" onClick="icon(this.id)" id="tiles5"></div>
+        <div class="tiles" onClick="icon(this.id)" id="tiles6"></div>
+        <div class="tiles" onClick="icon(this.id)" id="tiles7"></div>
+        <div class="tiles" onClick="icon(this.id)" id="tiles8"></div>
+        <div class="tiles" onClick="icon(this.id)" id="tiles9"></div>
+        <div class="text-center">
+            <button class="btn btn-danger" onClick="reset()" id="resetGame">RESET</button>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
+a
